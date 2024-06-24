@@ -19,7 +19,7 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
-                  <Link href="https://github.com/wizardofcode8">
+                  <Link to="https://github.com/wizardofcode8">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Github</span>    
@@ -28,13 +28,13 @@ const Footer = () => {
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                      <Link href="https://www.instagram.com/wizardofcode1/">
+                      <Link to="https://www.instagram.com/wizardofcode1/">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">Instagram</span> 
                     </p>
                         </Link>
-                    <Link href="https://www.linkedin.com/in/ikram-khan-54306b269/">
+                    <Link to="https://www.linkedin.com/in/ikram-khan-54306b269/">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Linkedin</span>
